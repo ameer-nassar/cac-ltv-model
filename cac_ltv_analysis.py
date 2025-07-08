@@ -182,8 +182,6 @@ plt.ylabel("Amount ($)")
 plt.title("LTV vs CAC by Acquisition Channel")
 plt.legend()
 plt.tight_layout()
-
-# Save the plot
 plt.savefig("plot2_ltv_vs_cac.png", dpi=300, bbox_inches='tight')
 plt.close()
 
@@ -213,7 +211,6 @@ plt.title("LTV:CAC Ratio by Acquisition Channel")
 plt.ylabel("LTV:CAC Ratio")
 plt.xlabel("Acquisition Channel")
 plt.tight_layout()
-
 plt.savefig("plot3_ltv_cac_ratio.png", dpi=300, bbox_inches='tight')
 plt.close()
 
@@ -246,6 +243,5 @@ plt.ylabel("Average ARPU ($)")
 plt.xlabel("Region")
 plt.xticks(rotation=45)
 plt.tight_layout()
-
 plt.savefig("plot4_arpu_by_region.png", dpi=300, bbox_inches='tight')
 plt.close()
